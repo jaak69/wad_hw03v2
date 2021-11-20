@@ -1,13 +1,27 @@
 <template>
+  <Header></Header>
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> | 
     <router-link to="/contactus">Contact Us</router-link>
   </div>
   <router-view />
+  <Footer></Footer>
 </template>
 
+<script>
+import Header from "./components/header-comp";
+import Footer from "./components/footer-comp"
+export default {
+  components: {
+    Header,
+    Footer,
+  },
+};
+</script>
+
 <style lang="scss">
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
