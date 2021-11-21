@@ -45,7 +45,7 @@
 
 #nav {
   text-align: center;
-  padding: 30px;
+  padding: 15px;
   flex-basis: 100%;
 
   a {
