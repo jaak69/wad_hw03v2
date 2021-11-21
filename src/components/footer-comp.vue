@@ -1,8 +1,7 @@
 <template>
-  <footer class="container-fluid text-center bg-light p-5 fixed-bottom">
+  <footer class="container-fluid">
     <p>
-      Web Application Development (LTAT.05.004) - Homework 3<br />
-      Team: Jaak Ivask, Mario Käära, Peeter Niidas
+      Web Application Development (LTAT.05.004) - Homework 3
     </p>
   </footer>
 </template>

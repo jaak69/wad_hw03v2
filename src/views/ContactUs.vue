@@ -15,8 +15,8 @@
       </tr>
       <tr>
         <td>Mario Käära</td>
-        <td>mario@somewhere.com</td>
-        <td>+1 234 567 892</td>
+        <td>mario.kaara@gmail.com</td>
+        <td>+372 5669 6517</td>
       </tr>
       <tr>
         <td>Peeter Niidas</td>
