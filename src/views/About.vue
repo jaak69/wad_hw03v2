@@ -20,6 +20,10 @@ export default {
 
 <style lang="scss" scoped>
 
+  #app {
+    height: 100%;
+  }
+
   .about{
     background-color: white;
     width:800px;
