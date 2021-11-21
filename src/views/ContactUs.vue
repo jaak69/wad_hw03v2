@@ -10,8 +10,8 @@
       </tr>
       <tr>
         <td>Jaak Ivask</td>
-        <td>jaak@somewhere.com</td>
-        <td>+1 234 567 891</td>
+        <td>jaak.ivask@ut.ee</td>
+        <td>+372 521 4610</td>
       </tr>
       <tr>
         <td>Mario Käära</td>
