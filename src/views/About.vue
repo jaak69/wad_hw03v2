@@ -22,11 +22,8 @@ export default {
 
   .about{
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width:800px;
+    flex-grow: 1;
 }
 
 </style>

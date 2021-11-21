@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss">
-html, body {
+html, body, #app {
     height: 100%;
 }
 body {
