@@ -56,16 +56,22 @@ form{
     display: flex;
 }
 
-form input[type="text"], form input[type="password"], form input[type="submit"]{
+form input[type="text"], form input[type="password"], form input[type="submit"], button{
     padding:10px 0 10px 0;
     width: 90%;
+}
+
+button{
+    width:25%;
+    margin-bottom: 20px;
+    
 }
 
 form input[type="text"]:hover, form input[type="password"]:hover{
     border: 2px solid #1c63a7;
 }
 
-input[type="submit"]{
+input[type="submit"], button{
     background-color: #1c63a7;
     color:white;
 }

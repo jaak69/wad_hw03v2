@@ -22,7 +22,5 @@ export default {
     posts() {return this.$store.state.posts}
   },
 }
-
-
 </script>
 
