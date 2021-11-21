@@ -95,7 +95,7 @@ footer {
 }
 
 .container.postit-page{
-    padding-top: 60px;
+   
     background-color: white;
     display: flex;
     flex-direction: column;

@@ -29,6 +29,11 @@ export default {
   },
   props: {
     post:Object
+  },
+  methods: {
+    resetCounter() {
+      this.counter = 0
+    }
   }
 }
 </script>
