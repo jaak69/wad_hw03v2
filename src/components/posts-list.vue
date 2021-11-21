@@ -36,7 +36,6 @@ export default {
 <style scoped>
   .container.postit-page{
     background-color: white;
-    padding-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
