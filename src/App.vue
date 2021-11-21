@@ -1,27 +1,29 @@
 <template>
-  <Header></Header>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> | 
+    <router-link to="/about">About</router-link> |
     <router-link to="/contactus">Contact Us</router-link>
   </div>
   <router-view />
-  <Footer></Footer>
+  <Header />
+  <Posts />
+  <Footer />
 </template>
 
 <script>
 import Header from "./components/header-comp";
-import Footer from "./components/footer-comp"
+import Footer from "./components/footer-comp";
+import Posts from "./components/Posts";
 export default {
   components: {
     Header,
     Footer,
+    Posts,
   },
 };
 </script>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
