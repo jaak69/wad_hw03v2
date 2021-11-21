@@ -19,9 +19,8 @@
 <script>
 export default {
   name: "articlecomp",
-  data: function() {
-    return {
-    }
+  props: {
+    post:Object
   }
 }
 </script>
