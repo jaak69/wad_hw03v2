@@ -41,6 +41,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width:800px;
 }
 
 .container.post{

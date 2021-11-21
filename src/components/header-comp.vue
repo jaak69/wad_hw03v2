@@ -43,6 +43,28 @@
   width: 100px;
 }
 
+form{
+    display: flex;
+}
+
+form input[type="text"], form input[type="password"], form input[type="submit"]{
+    padding:10px 0 10px 0;
+    width: 90%;
+}
+
+form input[type="text"]:hover, form input[type="password"]:hover{
+    border: 2px solid #1c63a7;
+}
+
+input[type="submit"]{
+    background-color: #1c63a7;
+    color:white;
+}
+
+input::placeholder{
+    padding-left: 5px;
+}
+
 #nav {
   text-align: center;
   padding: 15px;
