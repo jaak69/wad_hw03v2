@@ -11,7 +11,10 @@
         <div v-else></div>
         <div class="container-post-comment">
             <p class="my_caption">{{post.caption}}</p>
-            <img src="@/assets/images/thumbs-up.jpeg" alt="like">
+            <div class="counter">
+              <img src="@/assets/images/thumbs-up.jpeg"  v-on:click="counter += 1" alt="like">
+              <span >{{ counter }}</span>
+            </div>
         </div>
       </article>
 </template>
@@ -19,8 +22,27 @@
 <script>
 export default {
   name: "articlecomp",
+  data: function() {
+    return {
+      counter : 0
+    }
+  },
   props: {
     post:Object
   }
 }
 </script>
+
+<style scoped>
+
+  .counter{
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  span {
+    width: inherit;
+    background-color: white;
+    padding-left: 15px
+  }
+</style>
