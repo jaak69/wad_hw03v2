@@ -5,7 +5,8 @@
       <article class="container-post">
         <div class="container-post-head"> 
             <img src="@/assets/images/user-circle.svg" alt="user icon">
-            <p class="date">{{post.date}}</p>
+            <p v-if="post.date" class="date">{{post.date.replace('T', " ").slice(0, -8)}}</p>
+            <p v-else class="date">No datetime available</p>
         </div>
         <div v-if="post.post_image" class="container-post-image">
             <img :src="post.post_image"  :alt='"post no " + post.id'>
