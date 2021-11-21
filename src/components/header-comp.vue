@@ -7,10 +7,6 @@
     </form>
     <div class="user-menu">
       <img src="../assets/images/user-circle.svg" alt="user icon" />
-      <ul>
-        <li>User: Heli Helikopter</li>
-        <li>E-mail: spammer@spammer.org</li>
-      </ul>
     </div>
     <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -21,17 +17,17 @@
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 #main-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   padding: 5px 0;
   background-color: white;
-  position: fixed;
   width: 100%;
-  height: 50px;
+  /*height: 50px;*/
 }
 
 #main-header img {
@@ -45,5 +41,20 @@
 
 .search-form input[type="submit"] {
   width: 100px;
+}
+
+#nav {
+  text-align: center;
+  padding: 30px;
+  flex-basis: 100%;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 </style>
