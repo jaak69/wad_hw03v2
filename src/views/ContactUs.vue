@@ -1,6 +1,6 @@
 <template>
 <Header />
-  <div class="contactus">
+  <div class="container contactus">
     <h1>The page is created by:</h1>
     <table class="center">
       <tr>
@@ -24,6 +24,7 @@
         <td>+1 234 567 893</td>
       </tr>
     </table>
+    <div class="empty"></div>
   </div>
   <Footer />
 </template>
@@ -42,9 +43,6 @@ export default {
 
 <style lang="scss" scoped>
 
- #app {
-    height: 100%;
-}
 th,
 td {
   padding: 10px;
@@ -58,7 +56,7 @@ td {
   .contactus{
     background-color: white;
     width:800px;
-    flex-grow: 1;
+     flex-grow: 1;
 }
 
 </style>
