@@ -1,5 +1,6 @@
 <template>
   <section class="container postit-page">
+    Siin on postitused!
   </section>
 </template>
 

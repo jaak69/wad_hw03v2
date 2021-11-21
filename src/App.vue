@@ -5,23 +5,10 @@
     <router-link to="/contactus">Contact Us</router-link>
   </div>
   <router-view />
-  <Header />
-  <Posts />
-  <Footer />
+ 
 </template>
 
-<script>
-import Header from "./components/header-comp";
-import Footer from "./components/footer-comp";
-import Posts from "./components/Posts";
-export default {
-  components: {
-    Header,
-    Footer,
-    Posts,
-  },
-};
-</script>
+
 
 <style lang="scss" scoped>
 #app {

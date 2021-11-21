@@ -1,14 +1,18 @@
 <template>
+  <Header />
   <Posts />
+  <Footer />
 </template>
 
 <script>
-import Posts from "@/components/Posts.vue";
-
+import Header from "@/components/header-comp";
+import Posts from "@/components/Posts";
+import Footer from "@/components/footer-comp";
 export default {
-  name: "Home",
   components: {
+    Header,
     Posts,
-  },
+    Footer,
+  }
 };
 </script>
