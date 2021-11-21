@@ -9,7 +9,7 @@
       <img src="../assets/images/user-circle.svg" alt="user icon" />
     </div>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Posts</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/contactus">Contact Us</router-link>
   </div>
