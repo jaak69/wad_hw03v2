@@ -15,7 +15,7 @@
       </tr>
       <tr>
         <td>Mario Käära</td>
-        <td>mario.kaara@gmail.com</td>
+        <td>mario.kaara@ut.ee</td>
         <td>+372 5669 6517</td>
       </tr>
       <tr>
