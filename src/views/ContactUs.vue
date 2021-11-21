@@ -20,8 +20,8 @@
       </tr>
       <tr>
         <td>Peeter Niidas</td>
-        <td>peeter@somewhere.com</td>
-        <td>+1 234 567 893</td>
+        <td>peeter.niidas@ut.ee</td>
+        <td>+372 511 1171</td>
       </tr>
     </table>
     <div class="empty"></div>
