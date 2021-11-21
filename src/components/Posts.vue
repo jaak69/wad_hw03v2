@@ -1,7 +1,10 @@
 <template>
   <section class="container postit-page">
     <p>Siin on postitused!</p>
-    <p>Selle lisasin vuex abil: {{posts}}</p>
+ 
+    <div v-for="post in posts" :key='post.id'>
+      {{post}}
+    </div>
   </section>
 </template>
 
