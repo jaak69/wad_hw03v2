@@ -16,3 +16,18 @@ export default {
   }
 };
 </script>
+
+
+<style lang="scss" scoped>
+
+  .about{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+}
+
+</style>
+

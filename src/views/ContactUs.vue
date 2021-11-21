@@ -39,6 +39,7 @@ export default {
 };
 </script>
 
+
 <style lang="scss" scoped>
 th,
 td {
@@ -50,4 +51,14 @@ td {
   margin-right: auto;
 }
 
+  .contactus{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+}
+
 </style>
+
