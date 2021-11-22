@@ -23,9 +23,7 @@ export default {
   },
   methods: {
     resetCounters() {
-      this.posts.forEach(post => {
-        this.$refs['article'+post.id].resetCounter()
-      });
+      this.$store.commit("resetCounters")
     }
   }
 }

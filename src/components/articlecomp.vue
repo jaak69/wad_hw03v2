@@ -12,7 +12,7 @@
         <div class="container-post-comment">
             <p class="my_caption">{{post.caption}}</p>
             <div class="counter">
-              <img src="@/assets/images/thumbs-up.jpeg"  v-on:click="counter += 1" alt="like">
+              <img src="@/assets/images/thumbs-up.jpeg"  v-on:click="this.$store.commit('incrementLikes', post.id)" alt="like">
               <span >{{ counter }}</span>
             </div>
         </div>
@@ -22,17 +22,12 @@
 <script>
 export default {
   name: "articlecomp",
-  data: function() {
-    return {
-      counter : 0
-    }
-  },
   props: {
     post:Object
   },
-  methods: {
-    resetCounter() {
-      this.counter = 0
+  computed: {
+    counter: function() {
+      return this.$store.getters.countLikes(this.$props.post.id)
     }
   }
 }
