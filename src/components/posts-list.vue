@@ -1,9 +1,9 @@
 <template>
   <section class="container postit-page">
     <h1>Posts!</h1> 
-    <button id="resetButton" v-on:click="this.$refs.article.resetCounter()">Reset like counters</button>
+    <button id="resetButton" v-on:click="resetCounters()">Reset like counters</button>
     <div v-for="post in posts" :key='post.id'>
-        <articlecomp :post="post" ref="article"></articlecomp>
+        <articlecomp :post="post" :ref="'article' + post.id"></articlecomp>
     </div>
   </section>
 </template>
@@ -21,6 +21,13 @@ export default {
   computed: {
     posts() {return this.$store.state.posts}
   },
+  methods: {
+    resetCounters() {
+      this.posts.forEach(post => {
+        this.$refs['article'+post.id].resetCounter()
+      });
+    }
+  }
 }
 </script>
 
